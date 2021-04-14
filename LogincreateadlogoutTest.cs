@@ -11,8 +11,11 @@ using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Interactions;
 using NUnit.Framework;
+
 [TestFixture]
-public class LogincreateadlogoutTest {
+public class LogincreateadlogoutTest
+
+{
   private IWebDriver driver;
   public IDictionary<string, object> vars {get; private set;}
   private IJavaScriptExecutor js;
